@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<rozetkaFilters>
+    <rozetkaFilter>
+        <thing>Телевизоры</thing>
+        <brand>Samsung</brand>
+        <amount>50000</amount>
+    </rozetkaFilter>
+    <rozetkaFilter>
+        <thing>Автошины</thing>
+        <brand>Nokian</brand>
+        <amount>50000</amount>
+    </rozetkaFilter>
+    <rozetkaFilter>
+        <thing>Ванны</thing>
+        <brand>Ravak</brand>
+        <amount>50000</amount>
+    </rozetkaFilter>
+    <rozetkaFilter>
+        <thing>Ноутбуки</thing>
+        <brand>HP</brand>
+        <amount>50000</amount>
+    </rozetkaFilter>
+    <rozetkaFilter>
+        <thing>Холодильник</thing>
+        <brand>Bosch</brand>
+        <amount>50000</amount>
+    </rozetkaFilter>
+</rozetkaFilters>

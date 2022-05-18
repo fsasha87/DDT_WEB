@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Sample Suite" data-provider-thread-count = "3">
+    <listeners>
+        <listener class-name="utils.TestNGListener"/>
+    </listeners>
+    <test name="Sample Test">
+        <classes>
+            <class name="tests.SearchResultsTest">
+                <methods>
+                    <include name="verifyPriceOfSearchedCommodity"/>
+                    <include name="verifyPriceOfSearchedIncorrectCommodity"/>
+                    <include name="verifyPriceOfSearchedCommodityXML"/>
+                    <include name="verifyPriceOfSearchedCommodityCSV"/>
+                    <include name="verifyPriceOfSearchedCommodityCSV2"/>
+                    <include name="verifyPriceOfSearchedCommodityXLSX"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
